@@ -54,5 +54,5 @@ const processDirectory = async (dirPath) => {
 const userDirectoryPath = `./${target}`; // Change this to the path provided by the user
 
 processDirectory(userDirectoryPath)
-    .then(() => console.log('All downloads completed!'))
+    .then(() => console.log('لقد تم تحميل جميع الملفات في هذا المجلد!'))
     .catch(err => console.error('An error occurred:', err));
